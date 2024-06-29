@@ -325,21 +325,6 @@ const programs = [
     text: "La reproduction totale ou partielle d’un article, sans l’autorisation écrite et préalable du Monde, est strictement interdite."
   },
   {
-    categoryId: "conditions-vente",
-    categoryName: "Conditions générales de vente",
-    text: "Pour plus d’informations, consultez nos conditions générales de vente."
-  },
-  {
-    categoryId: "demande-autorisation",
-    categoryName: "Demande d'autorisation",
-    text: "Pour toute demande d’autorisation, contactez syndication@lemonde.fr."
-  },
-  {
-    categoryId: "offrir-article",
-    categoryName: "Offrir un article",
-    text: "En tant qu’abonné, vous pouvez offrir jusqu’à cinq articles par mois à l’un de vos proches grâce à la fonctionnalité « Offrir un article »."
-  },
-  {
     categoryId: "pouvoir-achat",
     categoryName: "Pouvoir d'achat",
     partyId: "LR",
