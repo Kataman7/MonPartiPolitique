@@ -315,16 +315,6 @@ const programs = [
     text: "Subventions aux entreprises – Conditionner les aides aux entreprises au respect de critères environnementaux, sociaux et de lutte contre les discriminations au sein de l’entreprise. Exiger le remboursement des aides en cas de non-respect des contreparties."
   },
   {
-    categoryId: "partage-article",
-    categoryName: "Partage d'article",
-    text: "Vous pouvez partager un article en cliquant sur les icônes de partage en haut à droite de celui-ci."
-  },
-  {
-    categoryId: "reproduction-article",
-    categoryName: "Reproduction d'article",
-    text: "La reproduction totale ou partielle d’un article, sans l’autorisation écrite et préalable du Monde, est strictement interdite."
-  },
-  {
     categoryId: "pouvoir-achat",
     categoryName: "Pouvoir d'achat",
     partyId: "LR",
