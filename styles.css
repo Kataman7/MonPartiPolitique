@@ -16,6 +16,9 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 10px; /* Ajout de padding pour espacement sur les côtés */
+    width: 100%; /* Pleine largeur sur tous les écrans */
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur totale */
 }
 
 .list-container {
@@ -29,7 +32,8 @@ h1 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 450px;
+    width: calc(100% - 40px); /* Largeur à 100% moins les bordures */
+    max-width: 450px; /* Largeur maximale de 450px */
     margin: 10px 0;
 }
 
@@ -141,4 +145,20 @@ h1 {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* Media Query pour les écrans jusqu'à 768px de largeur */
+@media (max-width: 768px) {
+    .container {
+        padding: 5px; /* Réduire le padding sur les côtés */
+    }
+
+    .list {
+        width: calc(100% - 30px); /* Ajuster la largeur moins les bordures */
+    }
+
+    .modal-content {
+        width: 90%; /* Ajuster la largeur du contenu du modal */
+        max-width: 100%; /* Utiliser la largeur maximale */
+    }
 }
