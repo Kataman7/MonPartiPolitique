@@ -1,0 +1,144 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.list h2, .list h3 {
+    text-align: center;
+}
+
+.item {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: grab;
+    user-select: none;
+}
+
+.item:active {
+    cursor: grabbing;
+}
+
+.item.dragging {
+    opacity: 0.5;
+}
+
+.item.NFP {
+    background-color: #FFB6C1; 
+}
+
+.item.ENSEMBLE {
+    background-color: #ADD8E6; 
+}
+
+.item.LR {
+    background-color: #6495ED;
+}
+
+.item.RN {
+    background-color: #1E90FF;
+}
+
+#stats {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#stats li {
+    margin: 5px 0;
+}
+
+#share-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#share-text {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#copy-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

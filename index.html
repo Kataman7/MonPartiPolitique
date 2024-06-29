@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Créez votre parti idéal en sélectionnant des programmes politiques des principaux partis candidats aux législatives 2024.">
+    <title>Mon Parti Politique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Mon Parti Politique</h1>
+    <h3>Créez votre propre parti politique en sélectionnant des programmes des principaux partis candidats aux législatives 2024.</h3>
+
+    <div id="stats">
+        <h2>Pourcentage des Partis</h2>
+        <p>Le pourcentage de représentation de chaque parti parmi les programmes sélectionnés.</p>
+        <ul id="stats-list">
+            <!-- Stats will be generated dynamically -->
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-container" id="programmes">
+            <!-- <h2>Programmes Politiques</h2>-->
+            <!-- Lists will be generated dynamically -->
+        </div>
+        <div class="list" id="parti-ideal">
+            <h2>Mon Parti Idéal</h2>
+        </div>
+    </div>
+    <button id="share-button">Partager mon parti idéal</button>
+    <div id="share-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Partagez votre Parti Idéal</h2>
+            <textarea id="share-text" readonly></textarea>
+            <button id="copy-button">Copier</button>
+        </div>
+    </div>
+    <script src="programs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
